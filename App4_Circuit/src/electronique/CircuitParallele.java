@@ -4,7 +4,9 @@ import java.util.List;
 
 public class CircuitParallele extends Circuit{
 
-    public CircuitParallele(List<Composant> composants){}
+    public CircuitParallele(List<Composant> composants){
+
+    }
 
     @Override
     public double calculerResistance() {
