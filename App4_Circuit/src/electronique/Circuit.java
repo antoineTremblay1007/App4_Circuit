@@ -1,7 +1,9 @@
 package electronique;
 
+import java.util.List;
+
 public class Circuit extends Composant {
 
-    public Circuit(){}
+    public Circuit(List<Composant> composants){}
 
 }

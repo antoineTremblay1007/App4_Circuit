@@ -1,13 +1,19 @@
 package electronique;
 
+import java.util.List;
+
 public class CircuitSerie extends Circuit{
-
-    public CircuitSerie() {
-
+    int n =1;
+    public CircuitSerie(List<Composant> composants) {
+        calculerResistance(composants);
     }
 
-    @Override
-    public double calculerResistance(){
+    public double calculerResistance(List<Composant> composants) {
+        if (composants.size() == 0){
+            return 0;}
+        else if (composants.size() == 1){
+
+        }
         return 0;
     }
 }
